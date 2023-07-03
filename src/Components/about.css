@@ -1,0 +1,54 @@
+
+
+.about-text-container{
+    margin:0 auto;
+    max-width: 500px;
+    margin-top: 18vh;
+}
+
+.sara-name{
+    font-size: 3em;
+    margin: auto
+}
+
+.about-description{
+    font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+    .about-text-container{
+      margin: 10vw;
+      margin-top: 10vh;
+    }
+  }
+@media (max-width: 768px) {
+    .sara-name{
+      padding-bottom: 0.1em;
+      margin-bottom: 0.1em;
+      font-size: 2.3em;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .subheading-about{
+        padding-top: 0.5em;
+        margin-top: 0.1em;
+        padding-bottom: 0.1em;
+        margin-bottom: 0.1em;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about-description{
+        padding-top: 0.3em;
+        margin-top: 0.1em;
+        font-weight: 500;
+        font-size: 1.1em;
+        line-height: 1.8em;
+    }
+  }
+
+ 
+
+

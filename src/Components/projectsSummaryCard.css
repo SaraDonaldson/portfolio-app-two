@@ -1,0 +1,51 @@
+
+.sum-card-container{
+    display:grid;
+    grid-template-rows: auto auto;
+    overflow: hidden;
+    aspect-ratio: 470/733;
+    max-width: 540px;  
+    margin-top: 5px;
+}
+
+.sum-card-container:hover{
+    display:grid;
+    grid-template-rows: auto auto;
+    overflow: hidden;
+    aspect-ratio: 470/703;
+    max-width: 545px;  
+    box-shadow: 0px 0px 5px 0.1px rgba(128, 128, 128, 0.183);
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.064);
+    cursor: pointer;
+}
+
+.project-sum-card-img-cont{
+    aspect-ratio: 550/733;
+    object-fit: cover;
+    margin-bottom: 0;
+    
+
+}
+
+.project-sum-card-img{
+    height:100%;
+    width: 100%;
+    background-color: bisque;
+    object-fit: cover;
+
+}
+.project-sum-card-label{
+    justify-self: flex-start;
+    margin-top:0;
+    padding: 1em;
+    width:100%;
+    transition: ease 500ms;
+    background-color: rgba(211, 211, 211, 0);
+}
+
+div.project-sum-card-label:hover{
+    padding:0.5em;
+
+}
+

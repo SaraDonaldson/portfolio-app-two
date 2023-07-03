@@ -1,0 +1,223 @@
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.577);
+    position: fixed;
+    top:60px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.details-modal-outer{
+    width: 950px;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.details-modal-inner{
+    width: 900px;
+    height: 700px;
+    /* background-color: white;
+    box-shadow:inset 1px 2px 5px 0px rgba(0, 0, 0, 0.513); */
+    overflow-y:scroll;
+
+}
+/* ----------------------------------------------------- */
+/* ---------------------  Floating buttons -------------------------------- */
+
+
+.exit-modal-button{
+    border-radius: 50%;
+    width:4rem;
+    height: 4rem;
+    border:none;
+    background-color: transparent;
+    position: fixed;
+    top: 10vh;
+    right:10vw;
+    cursor:pointer;
+    transition:all 0.4s;
+    font-size: 4rem;
+    z-index:9;
+}
+.exit-modal-button:hover{
+    transition:all 0.4s;
+    transform:scale(1.3);
+}
+
+.next-project-button{
+    top: 45vh;
+    position:fixed;
+    right: 75px;
+    transition:all 0.4s;
+}
+
+.previous-project-button{
+    top: 45vh;
+    position:fixed;
+    left: 75px;
+    transition:all 0.4s;
+}
+.previous-project-button:hover{
+left:50px;
+transition:all 0.4s;
+}
+.next-project-button:hover{
+right:50px;
+transition:all 0.4s;
+}
+.direction-button{
+    font-size: 4rem;
+    width:4.5rem;
+    height:4rem;
+    background-color: transparent;
+    cursor:pointer;
+    transition:all 0.4s;
+
+}
+.direction-button:hover{
+    transform:scale(1.3);
+    transition:all 0.4s;
+}
+
+@media (max-width: 1000px) {
+    .previous-project-button{
+      width: 200px;
+      height: 100px;
+      margin: 10vw;
+      bottom: 0;
+      position:fixed;
+      left:1rem;
+      top:initial;
+    
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .next-project-button{
+        width: 200px;
+        height: 100px;
+        margin: 10vw;
+        bottom: 0;
+        position:fixed;
+        right: 1rem;
+        top:initial;
+    
+    }
+  }
+
+/* ---------------------------------------------------- */
+
+.project-details-container{
+    margin-left: 4em;
+    width: 100%;
+}
+
+.project-details-banner{
+    background-color: white;
+    /* height: 30vh; */
+    aspect-ratio: 450/125;
+
+}
+
+.project-details-title{
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+
+}
+
+.project-details-intro{
+    max-width: 90%;
+
+}
+
+.project-details-intro-text{
+    line-height: 2em;
+ 
+}
+
+.project-btns-container{
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 5em;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.project-link-btn{
+    height: 60px;
+    width: 300px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 25px;
+    border:none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.492),
+                0px 0.1px 6px 1px rgba(0, 0, 0, 0.109),
+                inset 0px 0px 35px 1px rgba(0, 0, 0, 0.078);
+     color: white;
+     font-weight:600;
+     display:flex;
+     justify-content: center;
+     font-size: 1.5em;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-justify: center;
+     
+}
+
+.project-link-btn:hover{
+    height: 62px;
+    width: 305px;
+    border-radius: 25px;
+    border:none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.612),
+                0px 0.1px 6px 1px rgba(0, 0, 0, 0.267),
+                inset 0px 0.1px 6px 50px rgba(0, 0, 0, 0.049);
+    cursor: pointer;
+
+
+
+}
+
+.project-link-text{
+    padding-left:0.5rem;
+}
+
+.btn-one{
+    background: #d3d5e3;
+}
+/* .btn-one:hover{
+   
+} */
+
+.btn-two{
+    background: rgb(165,146,255);
+    background: linear-gradient(6deg, rgba(165,146,255,0.7) 6%, rgba(155,219,255,0.7) 74%);
+
+}
+
+/* .btn-two:hover{
+    
+
+} */
