@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+// import { RxHamburgerMenu } from "react-icons/rx";
 // import { ReactComponent as Hamburger } from '../../assets/icons/hamburger.svg'
 // import { ReactComponent as Brand } from '../../assets/icons/logo.svg'
 import './navbar.css'
@@ -16,10 +17,13 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           {/* <Brand /> */}
+          Sara Donaldson
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           {/* <Hamburger /> */}
-        </div>
+          {/* <RxHamburgerMenu /> */}
+          ▲
+         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
@@ -29,7 +33,7 @@ const Navbar = () => {
               <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">blog</NavLink>
+              <NavLink to="/blog">Blog</NavLink>
             </li>
             <li>
               <NavLink to="/contact">Contact</NavLink>
