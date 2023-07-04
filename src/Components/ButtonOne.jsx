@@ -7,7 +7,7 @@ function ButtonOne({githubLink, buttonText}) {
     target="_blank"
     rel="noreferrer"z
     ><button  
-    className='btn-one project-link-btn'><AiFillGithub /><span className="project-link-text">
+    className='btn-one project-link-btn'><span className="project-link-icon"><AiFillGithub /></span><span className="project-link-text">
       {buttonText}
       </span>
       </button>
