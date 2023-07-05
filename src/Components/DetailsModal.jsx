@@ -38,7 +38,7 @@ function DetailsModal({
          <button className='exit-modal-button'><AiFillCloseCircle/></button>
 
         <div className='details-modal-outer' onClick={(e)=> {e.stopPropagation()}}>
-            <div className='details-modal-inner'>
+            <div className='details-modal-inner inner-modal-contain'>
             <ProjectDetails
             projectInfo={projectDataArray[activeDataIndex]}/>
             </div>
