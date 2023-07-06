@@ -1,9 +1,21 @@
 
-
+.about-banner{
+      background: rgb(116,7,255);
+      background: linear-gradient(188deg, rgba(116,7,255,0.11) 0%, rgba(252,252,252,1) 51%, rgba(0,194,255,0.11) 100%);
+      position: relative;
+      top:-60px;
+      margin:0 auto;
+      margin-top:0;
+      height: 700px;
+ 
+}
 .about-text-container{
     margin:0 auto;
     max-width: 500px;
-    margin-top: 18vh;
+    margin-top: 60px;
+    padding-top: calc(60px + 18vh);
+ 
+
 }
 
 .sara-name{

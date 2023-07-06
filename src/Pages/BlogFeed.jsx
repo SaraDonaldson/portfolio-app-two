@@ -2,7 +2,7 @@ import React from 'react'
 
 function BlogFeed() {
   return (
-    <div>BlogFeed</div>
+    <div className='app-content'>BlogFeed</div>
   )
 }
 

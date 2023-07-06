@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-// import { RxHamburgerMenu } from "react-icons/rx";
-// import { ReactComponent as Hamburger } from '../../assets/icons/hamburger.svg'
-// import { ReactComponent as Brand } from '../../assets/icons/logo.svg'
+
 import './navbar.css'
 
 const Navbar = () => {
@@ -16,12 +14,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          {/* <Brand /> */}
           Sara Donaldson
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-          {/* <Hamburger /> */}
-          {/* <RxHamburgerMenu /> */}
           ▲
          </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>

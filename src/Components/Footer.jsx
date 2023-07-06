@@ -27,11 +27,11 @@ function Footer() {
                     > 
                 <BiLogoLinkedinSquare/> </a>
 
-                <p Link='/contact'
+                <Link to='/contact'
                     rel="noreferrer"z
                     className='footer-icon-links'
                     > 
-                    <MdOutlineEmail/> </p>
+                    <MdOutlineEmail/> </Link>
 
                 <a href= 'https://codepen.io/SaraDonaldson'
                     target="_blank"
