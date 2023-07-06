@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,700&display=swap');
 
+
 .app-content {
   font-family: 'Red Hat Display', sans-serif;
   background: rgb(116,7,255);
   background: linear-gradient(188deg, rgba(116,7,255,0.11) 0%, rgba(252,252,252,1) 51%, rgba(0,194,255,0.11) 100%);
   top:0;
   position: absolute;
-  width: 100%;
-  height: 700px;
+  width: 100vw;
+  min-height: 100vh;
+  display:flexbox;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 
