@@ -875,5 +875,147 @@ a{
     }
 }
 
+/* ------------------------------------------------------------------------------- */
+/* iphone SE */
+@media(width:375px){
+@media (height:667px){
+    .details-modal-outer{
+        height: 88vh;
+    }
+    .inner-modal-contain{
+        height: 77vh;
+    }
+    .details-modal-inner{
+        justify-content:flex-start;
+        align-content:flex-start;
+        margin-bottom:11vh; 
+    }
+
+    .direction-button{
+        font-size: 2.5rem;
+    }
+    .next-project-button{
+        top: 79vh;
+        right: 2vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    .previous-project-button{
+        top: 79vh;
+        left: 2vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    .previous-project-button:hover{
+        left:0px;
+    }
+    .next-project-button:hover{
+        right:0px;
+    }
+    .project-btns-container{
+        top: 116px;
+        height:fit-content;
+    }
+    .project-btns-bg{
+        margin:0;
+       
+    }
+    .project-link-btn{
+        height: 40px;
+        max-width: 9rem;
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        padding:20px;    
+    }
+    .project-details-title{
+        font-size: 1.8rem;
+    
+    }
+    .project-details-title-cont{
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+}
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ */
+
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
 
 
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+@media(width:375px){
+    @media (height:667px){
+
+    }
+}
