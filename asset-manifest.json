@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app-two/static/css/main.229563e9.css",
-    "main.js": "/portfolio-app-two/static/js/main.bbe6312c.js",
+    "main.css": "/portfolio-app-two/static/css/main.bf51e56e.css",
+    "main.js": "/portfolio-app-two/static/js/main.f4610957.js",
     "static/js/787.fc1c8c65.chunk.js": "/portfolio-app-two/static/js/787.fc1c8c65.chunk.js",
     "static/media/SudokuPreview.png": "/portfolio-app-two/static/media/SudokuPreview.3f6aab8402c6650d0a37.png",
     "static/media/WeatherBanner.png": "/portfolio-app-two/static/media/WeatherBanner.f8bf1224c11aa46c638a.png",
@@ -12,12 +12,12 @@
     "static/media/MoodBoardPreview.png": "/portfolio-app-two/static/media/MoodBoardPreview.bf05db394897e06f185d.png",
     "static/media/MoodboardBanner.png": "/portfolio-app-two/static/media/MoodboardBanner.615d351d301e7c33e88f.png",
     "index.html": "/portfolio-app-two/index.html",
-    "main.229563e9.css.map": "/portfolio-app-two/static/css/main.229563e9.css.map",
-    "main.bbe6312c.js.map": "/portfolio-app-two/static/js/main.bbe6312c.js.map",
+    "main.bf51e56e.css.map": "/portfolio-app-two/static/css/main.bf51e56e.css.map",
+    "main.f4610957.js.map": "/portfolio-app-two/static/js/main.f4610957.js.map",
     "787.fc1c8c65.chunk.js.map": "/portfolio-app-two/static/js/787.fc1c8c65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.229563e9.css",
-    "static/js/main.bbe6312c.js"
+    "static/css/main.bf51e56e.css",
+    "static/js/main.f4610957.js"
   ]
 }
