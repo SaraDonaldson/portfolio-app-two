@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar.jsx';
 import About from './Components/About.jsx';
 import './App.css';
 import ProjectsSummary from './Components/ProjectsSummary.jsx';
+import Footer from './Components/Footer.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <Navbar />
        <About link='/'/>
        <ProjectsSummary/>
+       <Footer/>
        </div>
     </BrowserRouter>
 
