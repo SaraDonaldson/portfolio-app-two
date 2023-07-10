@@ -1,0 +1,26 @@
+
+
+.blog-feed{
+  margin:0 auto;  
+  background-color: rgb(222, 255, 255);
+  margin-top: 60px;
+  height: 100%;
+
+}
+
+
+.blog-feed-main-container{
+    position: relative;
+    padding-top: 120px;
+
+}
+
+@media (max-width: 360px){
+  @media (max-height: 640px){
+    .blog-feed-main-container{
+      padding-top: 70px;
+    
+    }
+
+  }
+}
