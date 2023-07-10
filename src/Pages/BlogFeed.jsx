@@ -17,7 +17,10 @@ function BlogFeed() {
 
   return (
     <div className='app-content blog-feed'>
-      
+
+      <h2>Coming soon .....</h2>
+     <p>(Test only)</p> 
+
       <div className='blog-feed-main-container'>
       <BlogFeedCard
       blogContent={CssBoxShadows}

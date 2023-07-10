@@ -14,17 +14,20 @@ function BlogFeedCard({blogContent}) {
   return (
     <div className='blog-feed-card'> 
 
+      
+
         <div className='blog-card-title-section'>
         <h1 className='blog-card-title blog-card-white-space'>{ blogContent.title}</h1>
         </div>
 
+        
 
         <div className='blog-card-body-container'>
        
-            <div className='blog-card-image-container'>
-                <img className='blog-card-image'  src= {blogContent.mainImage} alt='' />
-            </div>
             <h2 className= 'blog-card-subtitle blog-card-white-space'> {blogContent.subtitle}</h2>
+            <div className='blog-card-image-container'>
+                <img className='blog-card-image'  src= {blogContent.mainimage} alt='' />
+             </div>
             <div className='blog-card-body'>
                 <p className='blog-card-intro-text blog-card-white-space'>
                     {blogContent.paraOne}
