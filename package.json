@@ -1,7 +1,7 @@
 {
   "name": "portfolio-app-two",
   "version": "0.1.0",
-  "homepage": "https://SaraDonaldson.github.io/",
+  "homepage": "https://SaraDonaldson.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
