@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Routes, Route, HashRouter } from "react-router-dom";
 import React from 'react';
 import Navbar from './Components/Navbar.jsx';
 import About from './Pages/About.jsx';
@@ -11,20 +11,20 @@ import BlogFeed from './Pages/BlogFeed.jsx';
 function App() {
   return (
      <div className='app'>  
-      <BrowserRouter>
-        <Navbar/>
-
-        <Routes>
-          <Route path="/" element={<About />}/>
-          <Route path="/blog" element={<BlogFeed />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/projects" element={<ProjectsSummary/>} />
-        </Routes>   
-    
-      <Footer/>
-    </BrowserRouter>
+  <HashRouter>
+    <Navbar />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/blog" element={<BlogFeed />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/projects" element={<ProjectsSummary/>} />
+      </Routes>
+    <Footer />
+</HashRouter>
    </div>
    
+
+ 
 
 
   );
