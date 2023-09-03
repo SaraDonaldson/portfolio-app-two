@@ -1,7 +1,7 @@
 {
   "name": "portfolio-app-two",
   "version": "0.1.0",
-  "homepage": "https://SaraDonaldson.github.io/portfolio-app-two/",
+  "homepage": "https://SaraDonaldson.github.io/portfolio-app-two",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
