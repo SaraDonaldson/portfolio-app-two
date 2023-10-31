@@ -21,26 +21,18 @@ function ProjectsSummary() {
   let weatherAppName = "Weather App";
 
   const projectDataArray = [
-        { 
-            bannerImage: EventBanner, 
-            title: "Event Mate" ,
-            introText:"Made with MUI, React, Ticketmaster API, Google API, Express.js and SQL. Ever been dying to go to an event, but none of your mates want to go? Event mate will match you with other users who want to go to the same events. Originally a group project, which is the repo linked below. The demo is a lite version of the event search feature and is coming soon.",
-            githubLinkOne: "https://github.com/CodeOp-tech/final-project-FS23-EventMate",
-            demoLinkOne: ""
-
-        },
 
         {
             bannerImage: SudokuBanner,
              title: "Sudoku",
-             introText:"Using React in the front end and Express and SQL in the back. The full app hasn't been deployed yet, but a lite front end demo version is available below.",
+             introText:"Play a sudoku game and check your answers. Made using React, Express and SQL.  A single game demo is live and playable. Just click the link to see it. A demo of the original full scale app is coming in November. Skills include: component architecture, raw CSS styling, state management, deployment, local storage.",
              githubLinkOne: "https://github.com/SaraDonaldson/portfolio-sudoku",
              demoLinkOne: "https://saradonaldson.github.io/portfolio-sudoku/"
         },
         {
             bannerImage:WeatherBanner,
             title: "Weather",
-            introText: "Using the Open Weather API and React. Responsive conditional CSS, HTML, JavaScript.",
+            introText: "Type in your location and see the current weather. Made using React.js and the Open Weather API. Click the link to see the live demo.  Skills include: consuming REST APIs, response handling, API authentication.",
             githubLinkOne: "https://github.com/SaraDonaldson/portfolio-weather",
             demoLinkOne: "https://saradonaldson.github.io/portfolio-weather/",
         },
@@ -48,11 +40,19 @@ function ProjectsSummary() {
         {
             bannerImage: MoodBoardBanner,
             title: "Mood Board",
-            introText: "Made with React JS. Add, resize and drag picture and text elements onto your mood board. Save your boards to view later. The original project code is available to view. A lite demo version is coming soon. ",
+            introText: "Create a mood board including pictures and text, with the ability to drag and resize items. Made using React, React Router, Express, SQL and React RND. Click the link to see an interactive front end only demo. The full version will be deployed in November 2023, but you can see the original repo. Skills include: Backend Routes, Database Schema design, API requests, middleware, response handling, state management, CSS styling, component and app architecture, collaboration.",
             githubLinkOne: "https://github.com/SaraDonaldson/mvp_moodboard",
-            demoLinkOne: ""
+            demoLinkOne: "https://saradonaldson.github.io/mood-board-demo/"
 
         },
+        { 
+          bannerImage: EventBanner, 
+          title: "Event Mate" ,
+          introText:"Find a friend to go to an event with you. Search events in your city and add them to your list to find others who also want to go. Match with these people and chat to decide if you'd like to go together. Made using React, Ticketmaster API, Google API, Express.js, MUI, SQL and web sockets. Click the link for a demo of the event search feature, or on checkout the code in the original repo for a view of the larger app. Skills include: backend routes, database schema design,  API requests and authentication, middleware, response handling, state management, CSS styling, component and app architecture, collaboration, continuous development.",
+          githubLinkOne: "https://github.com/CodeOp-tech/final-project-FS23-EventMate",
+          demoLinkOne: "https://saradonaldson.github.io/portfolio-events-search/"
+
+      },
   ];
 
   function handleProjectModal(contentIndex) {
@@ -69,30 +69,30 @@ function ProjectsSummary() {
 
       <div className="projects-cards-container">
         <div className="projects-cards-grid">
-          <ProjectsSummaryCard
-            projectImage={eventCardImage}
-            projectName={eventProjectName}
-            handleProjectModal={handleProjectModal}
-            modalContentIndex={0}
-          />
-
+      
           <ProjectsSummaryCard
             projectImage={sudoku}
             projectName={sudokuName}
             handleProjectModal={handleProjectModal}
-            modalContentIndex={1}
+            modalContentIndex={0}
           />
 
           <ProjectsSummaryCard
             projectImage={potat}
             projectName={weatherAppName}
             handleProjectModal={handleProjectModal}
-            modalContentIndex={2}
+            modalContentIndex={1}
           />
 
           <ProjectsSummaryCard
             projectImage={moodBoard}
             projectName={moodBoardName}
+            handleProjectModal={handleProjectModal}
+            modalContentIndex={2}
+          />
+            <ProjectsSummaryCard
+            projectImage={eventCardImage}
+            projectName={eventProjectName}
             handleProjectModal={handleProjectModal}
             modalContentIndex={3}
           />
